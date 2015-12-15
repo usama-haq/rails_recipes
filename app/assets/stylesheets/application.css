@@ -127,7 +127,7 @@ h1.cuisine {
 	right: 0;
 	text-decoration: none;
 	transition: background 0.5s, color 0.5s;
-	width: 50% %;
+	width: 50%;
 }
 
 .cuisine a:hover, .recipes .recipe-link a:hover, .recipes .recipe-edit a:hover, .recipe-show .recipe-edit a:hover, .recipe-show .recipe-delete a:hover, .recipe-edit form input.update-btn:hover, .login form input.form-btn:hover, .signup form input.form-btn:hover {
