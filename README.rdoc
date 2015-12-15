@@ -1,16 +1,10 @@
 == Rails Recipes
  
 Its a simple web application, built on rails, to demonstrate User authentication and authorization.
-I created it when I started learning <b>Ruby on Rails: Authentication</b> on <a href="https://www.codecademy.com">Codecademy</a>.
+I created it when I started learning <b>Ruby on Rails: Authentication</b> on Codecademy[https://www.codecademy.com].
 
-* Ruby version
-  2.2.3
-* System dependencies
-  Open Terminal and enter <code>bundle install</code>, without quotes to install all dependencies.
-* Database creation
-  In Terminal enter <code>rake db:migrate</code> to create a database for this application.
-* Database initialization
-  In Terminal enter <code>rake db:seed</code> to enter initial data in the database.
-* Deployment instructions
-  In Terminal enter <code>rails s</code> to start rails server to test it locally in development mode.
-  It is configured to be deployed on <b>Heroku</b> in <i>production mode</i>.
+<tt>Ruby version</tt>:: 2.2.3
+<tt>System dependencies</tt>:: Open Terminal and enter <code>bundle install</code>, without quotes to install all dependencies.
+<tt>Database creation</tt>:: In Terminal enter <code>rake db:migrate</code> to create a database for this application.
+<tt>Database initialization</tt>:: In Terminal enter <code>rake db:seed</code> to enter initial data in the database.
+<tt>Deployment instructions</tt>:: In Terminal enter <code>rails s</code> to start rails server to test it locally in <i>development mode</i>. It is configured to be deployed on <b>Heroku</b> in <i>production mode</i>.
