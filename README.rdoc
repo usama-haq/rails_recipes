@@ -1,28 +1,15 @@
-== README
+== Rails Recipes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Its a simple web application, built on rails, to demonstrate User authentication and authorization.
+I created it when I started learning *Ruby on Rails: Authentication" on [*Codecademy*](https://www.codecademy.com).
 
-Things you may want to cover:
-
-* Ruby version
-
+* Ruby version: 2.2.3
 * System dependencies
-
-* Configuration
-
+  Open Terminal and enter "bundle install", without quotes to install all dependencies.
 * Database creation
-
+  In Terminal enter *rake db:migrate* to create a database for this application.
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
+  In Terminal enter *rake db:seed* to enter initial data in the database.
 * Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  In Terminal enter *rails s* to start rails server to test it locally in _development_ mode.
+  It is configured to be deployed on *Heroku* in _production_ mode.
